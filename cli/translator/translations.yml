@@ -1,0 +1,28 @@
+--- 
+gs: 
+  - radio: 
+      - ping:
+        "Ping the satellite"
+      - set_freq:
+        "Set the frequency"
+  - sys:
+      - configure:
+        "Configure system"
+sat:
+  - obc:
+      - ping:
+        "Ping the satellite"
+      - get_status:
+        "Get status of the satellite"
+      - set_state:
+        "Set state of the obc"
+  - adcs: 
+      - ping:
+        "ping the adcs"
+      - get_status:
+        "get status of the adcs"
+  - pay:
+      - ping:
+        "ping the payload"
+      - take_pic:
+        "take picture using the payload"
